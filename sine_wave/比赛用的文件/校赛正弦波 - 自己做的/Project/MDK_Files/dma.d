@@ -3,7 +3,7 @@
 .\dma.o: ..\..\Drivers\SYS\sys\sys.h
 .\dma.o: ..\..\Start\stm32f10x.h
 .\dma.o: ..\..\Start\core_cm3.h
-.\dma.o: D:\keil c51\ARM\ARMCC\Bin\..\include\stdint.h
+.\dma.o: D:\Keil\ARM\arm_compiler\Bin\..\include\stdint.h
 .\dma.o: ..\..\Start\system_stm32f10x.h
 .\dma.o: ..\..\User\stm32f10x_conf.h
 .\dma.o: ..\..\Library\stm32f10x_adc.h

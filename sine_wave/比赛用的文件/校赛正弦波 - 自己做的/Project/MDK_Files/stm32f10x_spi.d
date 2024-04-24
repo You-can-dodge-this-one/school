@@ -2,7 +2,7 @@
 .\stm32f10x_spi.o: ..\..\Library\stm32f10x_spi.h
 .\stm32f10x_spi.o: ..\..\Start\stm32f10x.h
 .\stm32f10x_spi.o: ..\..\Start\core_cm3.h
-.\stm32f10x_spi.o: D:\keil c51\ARM\ARMCC\Bin\..\include\stdint.h
+.\stm32f10x_spi.o: D:\Keil\ARM\arm_compiler\Bin\..\include\stdint.h
 .\stm32f10x_spi.o: ..\..\Start\system_stm32f10x.h
 .\stm32f10x_spi.o: ..\..\User\stm32f10x_conf.h
 .\stm32f10x_spi.o: ..\..\Library\stm32f10x_adc.h

@@ -3,7 +3,7 @@
 .\tim.o: ..\..\Drivers\SYS\sys\sys.h
 .\tim.o: ..\..\Start\stm32f10x.h
 .\tim.o: ..\..\Start\core_cm3.h
-.\tim.o: D:\keil c51\ARM\ARMCC\Bin\..\include\stdint.h
+.\tim.o: D:\Keil\ARM\arm_compiler\Bin\..\include\stdint.h
 .\tim.o: ..\..\Start\system_stm32f10x.h
 .\tim.o: ..\..\User\stm32f10x_conf.h
 .\tim.o: ..\..\Library\stm32f10x_adc.h

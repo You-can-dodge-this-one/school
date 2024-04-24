@@ -2,7 +2,7 @@
 .\stm32f10x_i2c.o: ..\..\Library\stm32f10x_i2c.h
 .\stm32f10x_i2c.o: ..\..\Start\stm32f10x.h
 .\stm32f10x_i2c.o: ..\..\Start\core_cm3.h
-.\stm32f10x_i2c.o: D:\keil c51\ARM\ARMCC\Bin\..\include\stdint.h
+.\stm32f10x_i2c.o: D:\Keil\ARM\arm_compiler\Bin\..\include\stdint.h
 .\stm32f10x_i2c.o: ..\..\Start\system_stm32f10x.h
 .\stm32f10x_i2c.o: ..\..\User\stm32f10x_conf.h
 .\stm32f10x_i2c.o: ..\..\Library\stm32f10x_adc.h

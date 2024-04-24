@@ -2,7 +2,7 @@
 .\stm32f10x_rcc.o: ..\..\Library\stm32f10x_rcc.h
 .\stm32f10x_rcc.o: ..\..\Start\stm32f10x.h
 .\stm32f10x_rcc.o: ..\..\Start\core_cm3.h
-.\stm32f10x_rcc.o: D:\keil c51\ARM\ARMCC\Bin\..\include\stdint.h
+.\stm32f10x_rcc.o: D:\Keil\ARM\arm_compiler\Bin\..\include\stdint.h
 .\stm32f10x_rcc.o: ..\..\Start\system_stm32f10x.h
 .\stm32f10x_rcc.o: ..\..\User\stm32f10x_conf.h
 .\stm32f10x_rcc.o: ..\..\Library\stm32f10x_adc.h

@@ -3,7 +3,7 @@
 .\delay.o: ..\..\Drivers\SYS\sys\sys.h
 .\delay.o: ..\..\Start\stm32f10x.h
 .\delay.o: ..\..\Start\core_cm3.h
-.\delay.o: D:\keil c51\ARM\ARMCC\Bin\..\include\stdint.h
+.\delay.o: D:\Keil\ARM\arm_compiler\Bin\..\include\stdint.h
 .\delay.o: ..\..\Start\system_stm32f10x.h
 .\delay.o: ..\..\User\stm32f10x_conf.h
 .\delay.o: ..\..\Library\stm32f10x_adc.h

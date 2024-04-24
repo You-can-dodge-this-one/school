@@ -4,5 +4,5 @@
 #include "dma.h"
 #include "Tim.h"
 void DAC_Config( void);
-void dac_dma_wave_enable( uint16_t psc,uint16_t arr);
+void wave_enable(uint16_t arr);
 #endif

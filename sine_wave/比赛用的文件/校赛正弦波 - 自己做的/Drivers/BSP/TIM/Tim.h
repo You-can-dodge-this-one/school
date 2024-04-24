@@ -1,5 +1,5 @@
 #ifndef _TIM_H_
 #define _TIM_H_
 #include "sys.h"
-void TIM_Config(uint16_t psc,uint16_t arr);//输出频率
+void TIM_Config(uint16_t arr);//输出频率
 #endif

@@ -3,7 +3,7 @@
 .\main.o: ..\..\Drivers\SYS\sys\sys.h
 .\main.o: ..\..\Start\stm32f10x.h
 .\main.o: ..\..\Start\core_cm3.h
-.\main.o: D:\keil c51\ARM\ARMCC\Bin\..\include\stdint.h
+.\main.o: D:\Keil\ARM\arm_compiler\Bin\..\include\stdint.h
 .\main.o: ..\..\Start\system_stm32f10x.h
 .\main.o: ..\..\User\stm32f10x_conf.h
 .\main.o: ..\..\Library\stm32f10x_adc.h
@@ -35,5 +35,5 @@
 .\main.o: ..\..\Drivers\BSP\DAC\dac.h
 .\main.o: ..\..\Drivers\BSP\KEY\key.h
 .\main.o: ..\..\Drivers\BSP\LCD\lcd.h
-.\main.o: D:\keil c51\ARM\ARMCC\Bin\..\include\stdlib.h
-.\main.o: D:\keil c51\ARM\ARMCC\Bin\..\include\math.h
+.\main.o: D:\Keil\ARM\arm_compiler\Bin\..\include\stdlib.h
+.\main.o: D:\Keil\ARM\arm_compiler\Bin\..\include\math.h

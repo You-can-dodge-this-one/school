@@ -3,7 +3,7 @@
 .\lcd.o: ..\..\Drivers\SYS\sys\sys.h
 .\lcd.o: ..\..\Start\stm32f10x.h
 .\lcd.o: ..\..\Start\core_cm3.h
-.\lcd.o: D:\keil c51\ARM\ARMCC\Bin\..\include\stdint.h
+.\lcd.o: D:\Keil\ARM\arm_compiler\Bin\..\include\stdint.h
 .\lcd.o: ..\..\Start\system_stm32f10x.h
 .\lcd.o: ..\..\User\stm32f10x_conf.h
 .\lcd.o: ..\..\Library\stm32f10x_adc.h
@@ -30,6 +30,6 @@
 .\lcd.o: ..\..\Library\stm32f10x_usart.h
 .\lcd.o: ..\..\Library\stm32f10x_wwdg.h
 .\lcd.o: ..\..\Library\misc.h
-.\lcd.o: D:\keil c51\ARM\ARMCC\Bin\..\include\stdlib.h
+.\lcd.o: D:\Keil\ARM\arm_compiler\Bin\..\include\stdlib.h
 .\lcd.o: ..\..\Drivers\BSP\LCD\font.h
 .\lcd.o: ..\..\Drivers\SYS\delay\delay.h

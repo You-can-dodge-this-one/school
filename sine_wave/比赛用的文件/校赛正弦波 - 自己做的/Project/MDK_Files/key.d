@@ -1,7 +1,7 @@
 .\key.o: ..\..\Drivers\BSP\KEY\KEY.c
 .\key.o: ..\..\Start\stm32f10x.h
 .\key.o: ..\..\Start\core_cm3.h
-.\key.o: D:\keil c51\ARM\ARMCC\Bin\..\include\stdint.h
+.\key.o: D:\Keil\ARM\arm_compiler\Bin\..\include\stdint.h
 .\key.o: ..\..\Start\system_stm32f10x.h
 .\key.o: ..\..\User\stm32f10x_conf.h
 .\key.o: ..\..\Library\stm32f10x_adc.h

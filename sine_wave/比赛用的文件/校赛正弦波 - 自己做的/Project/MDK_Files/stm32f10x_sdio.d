@@ -2,7 +2,7 @@
 .\stm32f10x_sdio.o: ..\..\Library\stm32f10x_sdio.h
 .\stm32f10x_sdio.o: ..\..\Start\stm32f10x.h
 .\stm32f10x_sdio.o: ..\..\Start\core_cm3.h
-.\stm32f10x_sdio.o: D:\keil c51\ARM\ARMCC\Bin\..\include\stdint.h
+.\stm32f10x_sdio.o: D:\Keil\ARM\arm_compiler\Bin\..\include\stdint.h
 .\stm32f10x_sdio.o: ..\..\Start\system_stm32f10x.h
 .\stm32f10x_sdio.o: ..\..\User\stm32f10x_conf.h
 .\stm32f10x_sdio.o: ..\..\Library\stm32f10x_adc.h
