@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: /home/mbot/mbot_ws/src
+# Build directory: /home/mbot/mbot_ws/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs(gtest)
+subdirs(navigation/navigation)
+subdirs(slam_gmapping/slam_gmapping)
+subdirs(robot_teleop)
+subdirs(navigation/map_server)
+subdirs(serial_msgs)
+subdirs(multi_navigation_goals)
+subdirs(rplidar_ros)
+subdirs(simple_navigation_goals)
+subdirs(navigation/amcl)
+subdirs(slam_gmapping/gmapping)
+subdirs(my_slam_gmapping)
+subdirs(robot_bringup)
+subdirs(robot_pose_ekf)
+subdirs(navigation/fake_localization)
+subdirs(usb_cam)
+subdirs(navigation/voxel_grid)
+subdirs(navigation/costmap_2d)
+subdirs(navigation/nav_core)
+subdirs(navigation/base_local_planner)
+subdirs(navigation/carrot_planner)
+subdirs(navigation/clear_costmap_recovery)
+subdirs(navigation/dwa_local_planner)
+subdirs(navigation/move_slow_and_clear)
+subdirs(navigation/navfn)
+subdirs(navigation/global_planner)
+subdirs(navigation/rotate_recovery)
+subdirs(navigation/move_base)
+subdirs(robot_description)
+subdirs(yocs_velocity_smoother)

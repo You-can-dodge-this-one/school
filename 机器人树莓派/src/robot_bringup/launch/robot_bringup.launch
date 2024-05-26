@@ -1,0 +1,35 @@
+<launch>
+
+    <node pkg="tf" type="static_transform_publisher" name="base_footprint_to_base_link"  args="0 0 0 0 0 0   base_footprint base_link 100" />
+
+    <node pkg="tf" type="static_transform_publisher" name="base_link_to_laser_link"      args="0 0 0.2 0 0 0 base_link laser_link 100" />
+
+    <node pkg="tf" type="static_transform_publisher" name="base_link_to_imu_link"        args="0.05 -0.05 0 0 0 0   base_link imu_link 100" />
+
+    <!-- 启动robot -->
+    <node pkg="robot_bringup" type="robot_bringup" name="robot_bringup" output="screen" />
+    <param name="robot_frame_id"     type="string" value="base_footprint"/>
+
+    <!-- 加载机器人模型参数 -->
+    <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find robot_description)/xacro/robot_with_laser.xacro'" />
+
+    <!-- 运行joint_state_publisher节点，发布机器人的关节状态  -->
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />  
+
+    <!-- 运行robot_state_publisher节点，发布tf  -->
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="state_publisher">
+        <param name="publish_frequency" type="double" value="50.0" />
+    </node>
+
+    <!-- 运行激光雷达驱动 -->
+    <include file="$(find robot_bringup)/launch/rplidar.launch" />
+
+
+    <!-- 运行EKF功能包融合数据-->
+    <include file="$(find robot_pose_ekf)/robot_pose_ekf.launch" />
+
+    <!-- 启动速度平滑包-->
+    <include file="$(find yocs_velocity_smoother)/launch/standalone.launch" />
+
+
+</launch>
